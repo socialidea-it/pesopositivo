@@ -3,12 +3,13 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "rm -rf ./dist && parcel build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
     "parcel": "latest",
-    "sass": "^1.56.1"
+    "sass": "1.55.0",
+    "sass-loader": "13.2.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.2"
