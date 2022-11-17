@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "latest",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+@font-face {
+	font-family: QueensCondensed-Light;
+	src: url(QueensCondensed-Light.ttf) format("embedded-opentype"),
+		 url(QueensCondensed-Light.otf) format("opentype"),
+		 url(QueensCondensed-Light.eot) format("eot"),
+		 url(QueensCondensed-Light.woff2) format("woff2"),
+		 url(QueensCondensed-Light.woff) format("woff"),
+		 url(QueensCondensed-Light.woff#QueensCondensed-Light) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+

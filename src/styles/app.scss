@@ -1,0 +1,170 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.cdnfonts.com/css/work-sans');
+
+header#topheader {
+    background-color: #FF5762;
+    .container {
+        .header-logo {
+            text-align: center;
+            padding: 150px 0;
+            img#logo-ps {
+                width: 60% !important;
+            }
+        }
+    }
+}
+
+main {
+    padding: 100px;
+    .container {
+        .content-txt {
+            text-align: center;
+            h1 {
+                font-size: 104px;
+                font-weight: normal;
+                margin-bottom: 30px;
+                font-family: QueensCondensed-Light;
+            }
+            p {
+                font-size: 24px;
+                margin: 40px 0;
+                font-family: 'Work Sans', sans-serif;
+            }
+        }
+        .content-social {
+            text-align: center;
+            margin: 70px 0 100px 0;
+            img {
+                width: 4.5% !important;
+                margin: 0 5px;
+            }
+        }
+        .seguici {
+            text-align: center;
+            h6 {
+                font-weight: normal;
+                font-size: 34px;
+                font-family: QueensCondensed-Light;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    border-top: solid 1px #FDE2CF;
+    .container {
+        max-width: 650px !important;
+        .footer-content {
+            text-align: center;
+            padding: 30px;
+            p.footer-txt {
+                font-size: 12px;
+                font-family: 'Work Sans', sans-serif;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:480px) and (max-width:790px) {
+    header#topheader {
+        .container {
+            .header-logo {
+                padding: 100px 0;
+                img#logo-ps {
+                    width: 80% !important;
+                }
+            }
+        }
+    }
+    main {
+        padding: 50px;
+        .container {
+            .content-txt {
+                text-align: center;
+                h1 {
+                    font-size: 80px;
+                }
+                p {
+                    font-size: 24px;
+                }
+            }
+            .content-social {
+                img {
+                    width: 10% !important;
+                    margin: 0 10px;
+                }
+            }
+            .seguici {
+                h6 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    footer {
+        .container {
+            .footer-content {
+                padding: 20px;
+                p.footer-txt {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:479px) {
+    header#topheader {
+        padding: 50px 0;
+        .container {
+            .header-logo {
+                padding: 50px 0;
+                img#logo-ps {
+                    width: 80% !important;
+                }
+            }
+        }
+    }
+    main {
+        padding: 10px;
+        .container {
+            .content-txt {
+                h1 {
+                    font-size: 50px;
+                    margin-top: 20px;
+                }
+                p {
+                    font-size: 18px;
+                }
+            }
+            .content-social {
+                margin-top: 40px;
+                img {
+                    width: 15% !important;
+                    margin: 0 10px;
+                }
+            }
+            .seguici {
+                margin-bottom: 20px;
+                h6 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    footer {
+        .container {
+            .footer-content {
+                padding: 20px;
+                p.footer-txt {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
